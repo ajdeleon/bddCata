@@ -6,11 +6,11 @@ Feature: Add and Remove Items to a cart
         When I don't add anything
         Then I should have no products in a basket and no totals
 
-#     Scenario: Lets add a coke
-#         Given a new user
-#         When I add a coke
-#         Then I should have one product in my basket
-#         And it better be a coke
+    Scenario: Lets add a coke
+        Given a new user
+        When I add a coke
+        Then I should have one product in my basket
+        And it better be a coke
 
 # Feature: Carts have a basket and a total
 #     You can't checkout with a basket, but you can checkout a cart
